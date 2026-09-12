@@ -41,3 +41,6 @@ def app(input_data):
                                         input_color=color)
 
     cols[1].altair_chart(donut_chart_population)
+
+    # Return the existing model probability for contextual display elsewhere.
+    return float(prediction[0])

@@ -8,38 +8,11 @@ st_style = """
            </style>
            """
 
-footer = """
-    <style>
-    .footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: rgba(0, 0, 255, 0.1);  /* Very transparent blue */
-        text-align: center;
-        padding: 10px;
-        font-size: 14px;
-        color: #FFFFFF;  /* White text color */
-    }
-    .footer a {
-        color: #FFD700;  /* Golden link color */
-        text-decoration: none;
-    }
-    .footer a:hover {
-        text-decoration: underline;
-    }
-    </style>
-    <div class="footer">
-        <p>Diabetes Prediction | Data Source: National Institute of Diabetes and Digestive and Kidney Diseases | © 2024 UZNetDev <a href="https://github.com/UznetDev/Diabetes-Prediction.git" target="_blank">GitHub</a></p>
-    </div>
-    """
-
-
 head = """
-    <div style="text-align: 
-    center; 
-    font-size: 40px; 
-    font-weight: bold; 
+    <div style="text-align:
+    center;
+    font-size: 40px;
+    font-weight: bold;
     color: #2E86C1;
     margin-bottom: 20px;">
         🌟 Diabetes Prediction App 🌟
@@ -50,8 +23,8 @@ head = """
     """
 
 mrk = """
-<div style="background-color: {}; 
-color: white; 
+<div style="background-color: {};
+color: white;
 margin-bottom: 50px;
 padding: 10px;
 max-width: 300px;
@@ -103,9 +76,4 @@ about_diabets = """
 - **Exercise**: Regular physical activity to improve insulin sensitivity.
 - **Medications**: Insulin therapy or oral diabetes medications.
 - **Monitoring**: Regularly checking blood glucose levels.
-"""
-
-
-warn = """
-This project (model) was created for learning purposes, the model may make mistakes. Please trust only qualified experts.
 """

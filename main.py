@@ -1,4 +1,3 @@
-from function.function import *
 import streamlit as st
 from loader import page_icon
 
@@ -20,19 +19,15 @@ input_data =  app()
 
 # Prediction
 from app.predict import app
-app(input_data)
+prediction_probability = app(input_data)
 
-#### Explain
+# Rule-based context for the entered patient values
+from app.explanation import app
+app(input_data, prediction_probability)
+
+# Input streaming
 from app.explainer import app
 app(input_data)
-
-# Model performance
-from app.performance import app
-app()
-
-# perm_importance
-from app.perm_importance import app
-app()
 
 # About
 from app.about import app
